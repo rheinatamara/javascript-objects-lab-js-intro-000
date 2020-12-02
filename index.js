@@ -22,7 +22,7 @@ function deleteFromObjectByKey(object,key){
 console.log(deleteFromObjectByKey(recipes, 'recipe2'));
 
 function destructivelyDeleteFromObjectByKey(object,key){
-  object[key] = "oatmeal";
-  return object;
+  let newRecipe = object[key] = "oatmeal";
+  return newRecipe;
 }
 console.log(destructivelyDeleteFromObjectByKey(recipes,'recipe2'));
