@@ -25,4 +25,4 @@ function destructivelyDeleteFromObjectByKey(object,key){
   return object[key] = "oatmeal";
 
 }
-console.log(destructivelyDeleteFromObjectByKey(recipes,'recipe3'));
+console.log(destructivelyDeleteFromObjectByKey(recipes,'recipe2'));
