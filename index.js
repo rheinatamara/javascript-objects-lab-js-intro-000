@@ -23,6 +23,6 @@ console.log(deleteFromObjectByKey(recipes, 'recipe2'));
 
 function destructivelyDeleteFromObjectByKey(object,key){
   object[key] = "oatmeal";
-  return pbject;
+  return object;
 }
 console.log(destructivelyDeleteFromObjectByKey(recipes,'recipe2'));
